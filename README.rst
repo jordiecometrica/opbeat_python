@@ -14,7 +14,11 @@ Opbeat for Python
     :alt: Supported Python versions
 
 
-This is the official Python module for `Opbeat <https://opbeat.com/>`_.
+This is NOT the official Python module for `Opbeat <https://opbeat.com/>`_.
+
+This is Ecometrica's (hopefully temporary) fork of Opbeat to fix a few
+issues, most notably, the persistent email flood for when Opbeat
+cannot talk to the remote server.
 
 It provides full out-of-the-box support for many of the popular frameworks,
 including Django, and Flask. Opbeat also includes drop-in support for any

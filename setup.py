@@ -144,12 +144,12 @@ class PyTest(TestCommand):
 
 
 setup_kwargs = dict(
-    name='opbeat',
+    name='opbeat_ecometrica',
     version=VERSION,
-    author='Opbeat, Inc',
-    author_email='support@opbeat.com',
-    url='https://github.com/opbeat/opbeat_python',
-    description='The official Python module for Opbeat.com',
+    author='Ecometrica',
+    author_email='dev@ecometrica.com',
+    url='https://github.com/ecometrica/opbeat_python',
+    description="Ecometrica's unofficial fork of the official Python module for Opbeat.com",
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read(),
     packages=find_packages(exclude=("tests",)),
     zip_safe=False,
